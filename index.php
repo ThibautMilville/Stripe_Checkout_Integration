@@ -1,3 +1,6 @@
+<?php
+  require_once('config.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +14,7 @@
   <div class="container">
     <h1>Stripe checkout Integration</h1>
     <div class="item">
-      
+
     </div>
   </div>
 </body>
