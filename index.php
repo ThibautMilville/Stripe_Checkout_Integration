@@ -9,6 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stripe checkout integration</title>
   <link rel="stylesheet" href="style/style.css">
+  <!-- STRIPE SCRIPT -->
+  <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
   <div class="container">
