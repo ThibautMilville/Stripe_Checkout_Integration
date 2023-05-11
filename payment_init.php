@@ -57,4 +57,24 @@ if (!empty($request->createCheckoutSession)) {
   } catch (Exception $e) {
     $api_error = $e->getMessage();
   }
+
+  // CHECK FOR API ERRORS
+  if (empty($api_error) && $checkout_session) {
+    $response = array(
+      'status' => 1,
+      'message' => 'Checkout session created successfully!',
+      'sessionId' => $checkout_session->id
+    );
+  } else {
+    $response = array(
+      'status' => 0,
+      'error' => array(
+        'message' => 'Checkout session creation failed! ' . $api_error
+      )
+    );
+  }
 }
+
+// RETURN RESPONSE
+echo json_encode($response);
+?>
