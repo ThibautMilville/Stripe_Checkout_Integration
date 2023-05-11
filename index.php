@@ -21,7 +21,8 @@
       <!-- PRODUCT DETAILS -->
       <h2><?php echo $productName ?></h2>
       <img src="https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo3-wireless/pdp/product-carousel/black/pc-solo3-black-thrqtr-left.jpg">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt neque accusantium minus ipsum, magni eum placeat pariatur sit. Nobis provident illum soluta veniam doloremque. Magnam ex beatae laboriosam ipsum minus dolorem provident magni est, aliquam, corporis possimus. Quaerat numquam porro laborum commodi, esse distinctio, aliquid alias dolor voluptates impedit fugiat. Ducimus optio eaque animi unde repudiandae corrupti deserunt, facilis cumque quae suscipit harum magnam alias numquam iste at voluptates maiores consectetur sit. Vitae dolorem doloribus, culpa amet eligendi praesentium eveniet nisi, quia cum sapiente obcaecati incidunt, omnis ipsa. Dignissimos, qui sapiente! Ut facilis ducimus, rem voluptatem amet sequi soluta atque.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum possimus praesentium dolorem adipisci ut, natus delectus libero. Sunt aspernatur in error voluptatum, rem nemo laboriosam est consectetur quaerat libero nam neque eaque, non nisi ipsum dolorum necessitatibus labore placeat veniam asperiores! Debitis earum harum, hic soluta cum dicta doloremque qui!</p>
+      <h3>Prix : <?php echo $productPrice ?> $</h3>
       <!-- PAYMENT BUTTON -->
       <button class="stripe-button" id="payButton">
         <div class="spinner hidden" id="spinner"></div>

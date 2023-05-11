@@ -113,7 +113,7 @@ if (!empty($_GET['session_id'])) {
             }
           }
           $status = 'success';
-          $statusMsg = "Your Payment has been Successful!";
+          $statusMsg = "Your payment has been successful!";
         } else {
           $statusMsg = "Transaction has been failed!";
         }
@@ -121,7 +121,7 @@ if (!empty($_GET['session_id'])) {
         $statusMsg = "Unable to fetch the transaction details! $api_error";
       }
     } else {
-      $statusMsg = "Invalid Transaction! $api_error";
+      $statusMsg = "Invalid transaction! $api_error";
     }
   }
 } else {
@@ -166,7 +166,7 @@ if (!empty($_GET['session_id'])) {
         <p class="error"><?php echo $statusMsg; ?></p>
       <?php } ?>
     </div>
-    <a href="index.php" class="btn-link">Back to product page</a>
+    <a href="index.php" class="btn-link">BACK TO PRODUCT PAGE</a>
   </div>
 </body>
 

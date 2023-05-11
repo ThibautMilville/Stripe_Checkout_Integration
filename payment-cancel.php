@@ -10,9 +10,9 @@
 <body>
   <div class="container">
     <div class="status">
-      <h1 class="error">Checkout canceled! Your transaction was canceled.</h1>
+      <h1 class="error">Checkout canceled!<br>Your transaction was canceled.</h1>
     </div>
-    <a href="index.php" class="btn-link">Back to product page</a>
+    <a href="index.php" class="btn-link">BACK TO PRODUCT PAGE</a>
   </div>
 </body>
 </html>
